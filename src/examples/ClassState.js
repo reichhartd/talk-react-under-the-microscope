@@ -8,7 +8,7 @@ export class ClassState extends React.Component {
 
     render() {
         return (
-            <div>
+            <div style={{ margin: '200px' }}>
                 <form>
                     <label htmlFor="name">Name: </label>
                     <input onChange={(event) => this.setState({ name: event.target.value })} id="name" />
