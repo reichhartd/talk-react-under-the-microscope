@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export function UseState() {
+export function Greeting() {
     const [name, setName] = React.useState('');
     return (
         <div>

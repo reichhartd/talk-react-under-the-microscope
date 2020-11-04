@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export function UseEffect({ initialName = '' }) {
+export function GreetingPersistance({ initialName = '' }) {
     const [name, setName] = React.useState(window.localStorage.getItem('name') || initialName);
 
     React.useEffect(() => {
