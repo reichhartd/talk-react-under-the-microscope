@@ -6,7 +6,6 @@ import { Step4 } from './examples/thinkInReact/step4';
 import { Step5 } from './examples/thinkInReact/step5';
 import { UseState } from './examples/hooks/useState';
 import { UseEffect } from './examples/hooks/useEffect';
-import { SimpleDataFetching } from './examples/suspense/simpleDataFetching';
 
 function App() {
     return (
@@ -17,7 +16,6 @@ function App() {
             {/*{Step5}*/}
             {/*<UseState />*/}
             {/*<UseEffect />*/}
-            <SimpleDataFetching />
         </div>
     );
 }
